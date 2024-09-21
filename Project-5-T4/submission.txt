@@ -1,0 +1,39 @@
+Project 8 - Submission Form
+
+Story number and name: 3 - Visibility control of photos
+Story points: 4
+Brief description to see the story in action:
+The 'share with' dropdown list contains all the users along with don't specify list option on TopBar.
+When any user is selected the photo and its comments are visible to both current user and selected users.
+When used don't specify list then the photo and its comments is visible to everyone.
+When list is empty the photo and comments are visible to only current user.
+
+Story number and name: 5 - Deleting Comments, Users and Photos
+Story points: 4 
+Brief description to see the story in action:
+Empowering users with the ability to delete their own content and account, the platform now supports the deletion of comments, photos, and entire user accounts. This feature adheres to a comprehensive approach, ensuring that users can only delete content they own.
+When user or comment or photo is deleted, all associated details are permanently expunged from the database providing a thorough and secure deletion process.
+
+Story number and name: 6 - Photos Like Votes
+Story points: 4 
+Brief description to see the story in action:
+The implementation of the "like" button for photos introduces a powerful mechanism for users to express their appreciation and acknowledgment of captivating content. Clicking the like button on a photo triggers a visual change, indicating the user's liking of the photo. To enhance user experience, the system also provides a visual indication if the user has already liked a particular photo.
+The like count, displayed adjacent to the like button, dynamically updates in real-time, reflecting the collective appreciation of the community for each photo. The user's photo page is intelligently sorted based on the number of likes in descending order, with additional sorting by timestamp in reverse chronological order for photos with an equal number of likes.
+
+Total Story Points: 12
+
+Marketing Video URL (ensure permissions are set to public viewing):
+https://youtu.be/tJFdOVWHmoo
+
+Is it OK if we post your Marketing Video URL on the class discussion forum?
+Yes
+
+Any special instructions for grading (it should be easy for someone to run your
+app from a new machine):
+If you are facing any errors while npm run build:w is executed please follow the below instruction.
+Running instructions:
+npm install
+npm run build:w
+node loaddatabase.js
+node webserver.js 
+
